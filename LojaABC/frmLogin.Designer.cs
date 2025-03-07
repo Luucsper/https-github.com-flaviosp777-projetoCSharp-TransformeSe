@@ -49,7 +49,7 @@ namespace LojaABC
             this.pctLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pctLogo.TabIndex = 0;
             this.pctLogo.TabStop = false;
-            this.pctLogo.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pctLogo.Click += new System.EventHandler(this.pctLogo_Click);
             // 
             // lblUsuario
             // 

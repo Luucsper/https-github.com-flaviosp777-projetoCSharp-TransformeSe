@@ -22,11 +22,6 @@ namespace LojaABC
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -34,11 +29,9 @@ namespace LojaABC
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void frmLogin_Load(object sender, EventArgs e)
-        {
+            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            abrir.Show();
+            this.Hide();
 
         }
 
@@ -50,6 +43,16 @@ namespace LojaABC
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pctLogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
